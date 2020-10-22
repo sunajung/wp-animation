@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+   <meta charset="UTF-8">
+   <title>레이아웃 실습</title>
+   <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+   <link href="css/first_subject.css" rel="stylesheet">
+   <link href="css/second_subject.css" rel="stylesheet">
+</head>
+
+<body>
+   <header>
+      <div class="nav">
+         <a href="index.html"> <img src="./images/logo.png" width="180" height="180"></a>
+         <div class="left">
+            <div class="item"><button class="button community-button">커뮤니티</button></div>
+            <div class="item"><button class="button musicinfo-button">음악정보</button></div>
+            <div class="item"><button class="button showinfo-button">공연정보</button></div>
+
+         </div>
+
+         <div class="right" style="margin-right: auto">
+            <div class="item"><button class="button">
+                  <img src="./images/search1.JPG" width="30" height="30"
+                     onmouseover="this.src='./images/search2.JPG'" onmouseout="this.src='./images/search1.JPG'">
+               </button>
+            </div>
+
+            <div class="item"><button class="button">
+                  <img src="./images/cart1.JPG" width="30" height="30" onmouseover="this.src='./images/cart2.JPG'"
+                     onmouseout="this.src='./images/cart1.JPG'">
+               </button></div>
+            <div class="item"><button class="button">로그인</button></div>
+            <div class="item"><button class="button">회원가입</button></div>
+         </div>
+      </div>
+   </header>
+
+
+   <div id="communityMenu" class="hidden headerMenu">
+      <div class="community">
+         <div class="item"><button class="buttonside">주요 공지</button></div>
+         <div class="item"><button class="buttonside">이벤트 정보</button></div>
+         <div class="item"><button class="buttonside">소통 공간</button></div>
+      </div>
+   </div>
+   
+   <div id="musicinfoMenu" class="hidden headerMenu">
+      <div class="musicinfo">
+         <div class="item"><button class="buttonside">최근 음악</button></div>
+         <div class="item"><button class="buttonside">BEST 100</button></div>
+         <div class="item"><button class="buttonside">음악 뉴스</button></div>
+   
+      </div>
+   </div>
+   
+   <div id="showinfoMenu" class="hidden headerMenu">
+      <div class="showinfo">
+         <div class="item"><button class="buttonside">새로운 공연</button></div>
+         <div class="item"><button class="buttonside">상영중 공연</button></div>
+         <div class="item"><button class="buttonside">지난 공연</button></div>
+   
+      </div>
+   </div>
+   
+   
+   <section id="content" class="section1">
+      <div class="backcontainer first">
+         <div>
+            <img src="./images/add_short1.JPG" width="180" height="90"
+               onmouseover="this.src='./images/add_short1_1.JPG'" onmouseout="this.src='./images/add_short1.JPG'">
+         </div>
+         <div>
+            <img src="./images/add_short2.JPG" width="180" height="90"
+               onmouseover="this.src='./images/add_short2_1.JPG'" onmouseout="this.src='./images/add_short2.JPG'">
+         </div>
+         <div>
+            <img src="./images/add_short3.JPG" width="180" height="90"
+               onmouseover="this.src='./images/add_short3_1.JPG'" onmouseout="this.src='./images/add_short3.JPG'">
+
+         </div>
+      </div>
+   </section>
+
+   <div class="fake"></div>
+   <div class="sections">
+      <div class="top-wrapper">
+      <section id="content" class="section2">
+         <div class="item"><button class="button_h"> 계열사 | </button>
+         <button class="button_d">suna company</button></div>
+         <div class="container">
+         <div>
+            <img src="./images/banner1.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner2.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner3.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner4.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner5.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner6.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner7.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner8.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner9.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner10.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner11.png" width="200" height="100">
+         </div>
+         <div>
+            <img src="./images/banner12.png" width="200" height="100">
+         </div>
+         </div>
+
+      </section>
+
+      <section id="content" class="section3">
+         <div class="item">
+         <button class="button_h"> 상영중 | </button>
+         <button class="button_d"> </button>
+         </div>
+         <div class="sidecontainer">
+          <div class="poster wrapper">
+            <img src="./images/poster1.jpg" width="300" height="300">
+          </div>
+          <div class="poster">
+            <img src="./images/poster2.jpg" width="300" height="300">
+          </div>
+          <div class="poster">
+            <img src="./images/poster3.jpg" width="300" height="300">
+          </div>
+          <div class="poster">
+            <img src="./images/poster4.jpg" width="300" height="300">
+          </div>
+          <div class="poster">
+            <img src="./images/poster5.jpg" width="300" height="300">
+          </div>
+          <div class="poster">
+            <img src="./images/poster6.jpg" width="300" height="300">
+          </div>
+         </div>
+
+
+      </section>
+      </div>
+      <section class="section4">
+         <div class="item">
+            <button class="button_h"> 개발자 |</button>
+            <button class="button_d"> 컴퓨터 공학과, 정선아. </button>
+         </div>
+         <img class="profile" src="./images/me.jpg" width="200" height="200">
+         <div class="text">
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit officiis pariatur nemo magni obcaecati, dicta veniam fuga maiores corporis commodi quo, ut non harum veritatis unde doloribus fugit. Sint repellendus tempore ipsum! Nobis illo culpa quo, dignissimos delectus doloribus? Dignissimos qui autem quidem, delectus reiciendis temporibus quas excepturi et id fuga, ducimus expedita nesciunt tenetur cupiditate. Sed pariatur veritatis necessitatibus officia praesentium sit nobis, consectetur eius labore, quam consequuntur doloribus accusantium, suscipit laudantium maiores facere voluptates enim. At eos quidem, doloremque eveniet dolorem eius accusamus vel sint illum, non ipsam nobis amet, iusto eligendi voluptatum perferendis beatae fuga dolorum unde alias. Alias quod sequi debitis voluptatibus ipsa laborum, quo minima cupiditate dolores in, numquam expedita ex quidem asperiores suscipit unde molestiae consequatur reiciendis? Ad eos repudiandae ullam sed ut, nemo sunt, facilis quas voluptatibus velit totam impedit adipisci eius iure exercitationem officiis accusamus optio aspernatur sequi atque esse perspiciatis quasi ducimus enim! Blanditiis, fugiat. Facere eaque quis, consequuntur quo commodi pariatur accusamus iste placeat esse vel laudantium cum odio ipsam modi, est quia cumque! Est obcaecati ad voluptas ab aliquid corrupti eius architecto eligendi, tenetur eaque veniam illo minus accusantium laudantium pariatur adipisci consequuntur magni maxime ratione! Laudantium, fugiat ea.</a>         
+         </div>
+      </section>
+   </div>
+   <footer>
+      <br>
+      <br>
+      <p>웹 응용 프로그래밍 레이아웃 실습</p>
+      <p>ⓒ 2020. suna jung All Rights Reserved.</p>   
+   </footer>
+   <div class="aside-wrapper" style="position:absolute;left:0px;top:400px;width:100%;min-width:1630px;">
+      <aside>
+         <div class="hot-topic">
+            <div class="item" style="display:block ">
+            <button class="button_h"> 인기 토픽 | </button>
+            <p> ① 위의 배너 광고를 클릭하면 변해요! </p>
+            <p> ② nav 메뉴에 마우스를 갖다대면 변해요! </p>
+            <p> ③ 웹사이트 크기에 따라 요소들이 변해요!</p>
+            </div>      
+         </div>
+         <div class="like-show">
+            <div class="item" style="display:block">
+               <button class="button_h"> 찜 한 공연 | </button>
+            </div>      
+            <div>
+               <img src="./images/side1.jpg" width="100" height="100">
+               <p>과제를</p>
+            </div>
+            <div>
+               <img src="./images/side2.jpg" width="100" height="100 ">
+               <p>향한</p>
+            </div>   
+            <div>
+               <img src="./images/side3.jpg" width="100" height="100">
+               <p>저의</p>
+            </div>
+            <div>
+               <img src="./images/side4.jpg" width="100" height="100 ">
+               <p>정성과</p>
+            </div>   
+            <div>
+               <img src="./images/side5.jpg" width="100" height="100">
+               <p>열정과</p>
+            </div>
+            <div>
+               <img src="./images/side6.jpg" width="100" height="100 ">
+               <p>집념</p>
+            </div>   
+            <div>
+               <img src="./images/side7.jpg" width="100" height="100">
+               <p>재밌는</p>
+            </div>
+            <div>
+               <img src="./images/side8.jpg" width="100" height="100 ">
+               <p>웹 응용</p>
+            </div>   
+            <div>
+               <img src="./images/side9.jpg" width="100" height="100">
+               <p>프로그래밍</p>
+            </div>
+         </div>
+      </aside>
+   </div>
+
+   <script>
+      let communityHidden=true;
+      const communityButton = document.getElementsByClassName('community-button')[0];
+      const communitySideMenu = document.getElementById('communityMenu');
+      
+      communityButton.addEventListener('click',(event)=>{
+         if(communityHidden){
+            communitySideMenu.classList.remove('hidden');
+            musicinfoSideMenu.classList.add('hidden');
+            showinfoSideMenu.classList.add('hidden');
+            communityHidden=false;
+            musicinfoHidden=true;
+            showinfoHidden=true;
+         }
+         else{
+            communitySideMenu.classList.add('hidden');
+            communityHidden=true;
+         }
+      });
+      
+      let musicinfoHidden=true;
+      const musicinfoButton = document.getElementsByClassName('musicinfo-button')[0];
+      const musicinfoSideMenu = document.getElementById('musicinfoMenu');
+      
+      musicinfoButton.addEventListener('click',(event)=>{
+         if(musicinfoHidden){
+            musicinfoSideMenu.classList.remove('hidden');
+            communitySideMenu.classList.add('hidden');
+            showinfoSideMenu.classList.add('hidden');
+            musicinfoHidden=false;
+            communityHidden=true;
+            showinfoHidden=true;
+         }
+         else{
+            musicinfoSideMenu.classList.add('hidden');
+            musicinfoHidden=true;
+         }
+      });
+      
+      let showinfoHidden=true;
+      const showinfoButton = document.getElementsByClassName('showinfo-button')[0];
+      const showinfoSideMenu = document.getElementById('showinfoMenu');
+      
+      showinfoButton.addEventListener('click',(event)=>{
+         if(showinfoHidden){
+            showinfoSideMenu.classList.remove('hidden');
+            communitySideMenu.classList.add('hidden');
+            musicinfoSideMenu.classList.add('hidden');
+            showinfoHidden=false;
+            communityHidden=true;
+            musicinfoHidden=true;
+         }
+         else{
+            showinfoSideMenu.classList.add('hidden');
+            showinfoHidden=true;
+         }
+      });
+   </script>
+  
+
+</body>
+
+</html>
