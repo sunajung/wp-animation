@@ -61,7 +61,6 @@
 	transition:1s;
 	transform:tranlate(-20,-20);
 	transform:scale(1.1, 1.1);
-	transform:rotate(360deg 360deg 360deg);
 	border:1px solid #eaeaea;
  }
  
@@ -147,3 +146,32 @@
  .poster:nth-child(6){
 	transform:rotateX(270deg) translate3d(0px, 0px, 150px);
  }
+ 
+.profile-img-wrapper{
+	float:left;
+	position:relative;
+	width:300px;
+	height:250px;
+	
+}
+.img-wrapper{
+	position:absolute;
+	width:30px;
+	transition:0.5s;
+}
+.img-wrapper:hover{
+	width:800px;
+	transition:0.5s;
+}
+.profile{
+	position:absolute;
+	z-index:3;
+}
+.profile:nth-child(2){
+	left:35%;
+	z-index:2;
+}
+.profile:nth-child(3){
+	z-index:1;
+	left:70%;
+}
